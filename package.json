@@ -1,0 +1,58 @@
+{
+  "name": "@airplanegobrr/camera-capture",
+  "version": "1.0.2",
+  "description": "Super portable, fast camera capture library for node.js (server). TypeScript/JavaScript easy to use APIs. Uses puppeteer headless browser to capture webcam video (audio/desktop, recording, etc) and stream back to node.js frame by frame in plain image data for optimal speed or optionally in encoded formats like jpeg, png, bmp, etc",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "file-type": "^20.4.0",
+    "misc-utils-of-mine-generic": "^0.2.34"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "ava": "^6.2.0",
+    "typescript": "^5.7.3"
+  },
+  "peerDependencies": {
+    "puppeteer": "^1.20.0"
+  },
+  "keywords": [
+    "Node.js",
+    "camera",
+    "webcam",
+    "video",
+    "capture",
+    "record",
+    "camera",
+    "audio",
+    "video record",
+    "camera capture",
+    "audio capture",
+    "screenshot",
+    "desktop"
+  ],
+  "contributors": [
+    {
+      "name": "Sebastian Gurin",
+      "email": "sebastigurin@gmail.com",
+      "url": "http://sgurin.com"
+    },
+    {
+      "name": "AirplaneGobrr",
+      "email": "airplane@airplanegobrr.xyz",
+      "url": "https://airplanegobrr.xyz"
+    }
+  ],
+  "homepage": "https://www.npmjs.com/package/@airplanegobrr/camera-capture",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AirplaneGobrr-Trash/camera-capture.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AirplaneGobrr-Trash/camera-capture/issues"
+  }
+}
